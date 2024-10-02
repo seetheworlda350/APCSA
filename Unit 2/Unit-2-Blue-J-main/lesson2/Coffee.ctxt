@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Coffee
+comment0.text=\r\n\ This\ class\ represents\ a\ cup\ of\ coffee\r\n\ \r\n
+comment1.params=
+comment1.target=Coffee()
+comment2.params=howStrong\ hasSugar\ milk
+comment2.target=Coffee(int,\ boolean,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
