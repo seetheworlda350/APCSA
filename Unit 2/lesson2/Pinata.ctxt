@@ -2,6 +2,12 @@
 comment0.target=Pinata
 comment1.params=
 comment1.target=Pinata()
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment2.params=candyType\ pinataColor\ pinataShape
+comment2.target=Pinata(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=color\ candy
+comment3.target=Pinata(java.lang.String,\ java.lang.String)
+comment4.params=shape
+comment4.target=Pinata(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

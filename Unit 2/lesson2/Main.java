@@ -23,6 +23,16 @@ public class Main
         // make a default pinata
         Pinata myPinata = new Pinata();
         System.out.println(myPinata);
+        
+        Pinata pinata1 = new Pinata("hard","rainbow","donkey");
+        System.out.println(pinata1);
+        
+        Pinata pinata2 = new Pinata("green","soft");
+        System.out.println(pinata2);
+        
+        Pinata pinata3 = new Pinata("giraffe");
+        System.out.println(pinata3);
+        
         // make more pinatas to test all of the constructors you made
         
         // test each of the website constructors

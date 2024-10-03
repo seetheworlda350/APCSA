@@ -16,6 +16,20 @@ public class Pinata
         shape = "donkey";
     }
     
+    public Pinata(String candyType, String pinataColor, String pinataShape){
+        candy = candyType;
+        color = pinataColor;
+        shape = pinataShape;
+    }
+    
+    public Pinata(String color, String candy){
+        
+    }
+    
+    public Pinata(String shape){
+        
+    }
+    
     // Add an overloaded constructor that allows the user
     // to customize all of the instance variables
     
