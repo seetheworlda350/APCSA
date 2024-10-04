@@ -14,24 +14,40 @@ public class Coins {
         pennies = numPennies;
     }
 
-    public void addQuarter(){
-        System.out.println("Adding a quarter ...");
-        quarters ++;
+    public void addQuarter(int numQuarters){
+        if(numQuarters == 1){
+            System.out.println("Adding a quarter ...");
+        }else{
+            System.out.printf("Adding %d quarters ...\n",numQuarters);
+        }
+        quarters += numQuarters;
     }
 
-    public void addDime(){
-        System.out.println("Adding a dime ...");
-        dimes ++;
+    public void addDime(int numDimes){
+        if(numDimes == 1){
+            System.out.println("Adding a dime ...");
+        }else{
+            System.out.printf("Adding %d dimes ...\n",numDimes);
+        }
+        dimes += numDimes;
     }
 
-    public void addNickel(){
-        System.out.println("Adding a nickel ...");
-        nickels ++;
+    public void addNickel(int numNickels){
+        if(numNickels == 1){
+            System.out.println("Adding a nickel ...");
+        }else{
+            System.out.printf("Adding %d nickels ...\n",numNickels);
+        }
+        nickels += numNickels;
     }
 
-    public void addPenny(){
-        System.out.println("Adding a penny ...");
-        pennies ++;
+    public void addPenny(int numPenny){
+        if(numPenny == 1){
+            System.out.println("Adding a penny ...");
+        }else{
+            System.out.printf("Adding %d pennys ...\n",numPenny);
+        }
+        pennies += numPenny;
     }
 
     public void quartersCount(){
@@ -67,12 +83,19 @@ public class Coins {
     }
 
     public void bankValue(){
-        System.out.println(quarters * 0.25 + dimes * 0.10
-                + nickels * 0.05 + pennies * 0.01);
+        double value = quarters * 0.25 + dimes * 0.10
+            + nickels * 0.05 + pennies * 0.01;
+        System.out.printf("$ %.2f", value);
+        System.out.println(" ");
     }
 
     public void bankCount(){
         System.out.println(quarters + dimes + nickels + pennies);
+    }
+    
+    public String toString()
+    {
+        return "Quaters "+ quarters + ", dimes " + dimes + ", nickels " + nickels+", pennies " + pennies;
     }
 }
 

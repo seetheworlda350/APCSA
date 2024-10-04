@@ -15,30 +15,27 @@ public class Pinata
         color = "rainbow";
         shape = "donkey";
     }
-    
-    public Pinata(String candyType, String pinataColor, String pinataShape){
-        candy = candyType;
+    // Add an overloaded constructor that allows the user
+    // to customize all of the instance variables
+    public Pinata(String pinataCandy, String pinataColor, String pinataShape){
+        candy = pinataCandy;
         color = pinataColor;
         shape = pinataShape;
     }
-    
-    public Pinata(String color, String candy){
-        
-    }
-    
-    public Pinata(String shape){
-        
-    }
-    
-    // Add an overloaded constructor that allows the user
-    // to customize all of the instance variables
-    
     // Add an overloaded constructor that allows the user
     // to customize the color and shape
-    
+    public Pinata(String pinataColor, String pinataShape){
+        color = pinataColor;
+        candy = "Twix";
+        shape = pinataShape;
+    }
     // Add an overloaded constructor that allows the user
     // to customize the candy
-    
+    public Pinata(String pinataCandy){
+        shape = "rabbit";
+        color = "blue";
+        candy = pinataCandy;
+    }
     
     public String toString()
     {
