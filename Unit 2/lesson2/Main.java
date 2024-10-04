@@ -15,7 +15,7 @@ public class Main
         
         // make a custom cup of coffee
         
-        /*  Coffee myCup = new Coffee(5,false,"no");
+        Coffee myCup = new Coffee(5,false,"no");
         System.out.println(myCup);
         
         // make a default cup of coffee
@@ -32,7 +32,7 @@ public class Main
         System.out.println(pinata2);
         
         Pinata pinata3 = new Pinata("Lemon Heads");
-        System.out.println(pinata3);   */
+        System.out.println(pinata3);
         
         // make more pinatas to test all of the constructors you made
         
